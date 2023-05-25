@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'basics';
+  name = 'Nabeel'
+
+  getName(){
+    return this.name
+  }
 }
